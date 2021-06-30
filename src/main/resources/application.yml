@@ -1,0 +1,14 @@
+
+server:
+  port: 8011
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ssonsh/study-msa-config
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: sson
+    password: sson
